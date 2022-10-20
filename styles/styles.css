@@ -67,11 +67,13 @@ img {
   opacity: 0;
   transition: transform 0.3s ease, opacity 0.5s ease;
   transform: translate(-100%, 0);
+  visibility: hidden;
 }
 
 .panel.is-active {
   transform: translate(0, 0);
   opacity: 1;
+  visibility: visible;
 }
 
 .panel-btn {
