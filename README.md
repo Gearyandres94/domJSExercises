@@ -2,16 +2,21 @@
 
 Solution to the exercises propose by Jonathan Mircha from [AprendeJavascript](https://aprendejavascript.org/)
 from classes 80 to 103
-[Github Pages Link](https://gearyandres94.github.io/domJSExercises/views/).
+
+**[Github Pages Link](https://gearyandres94.github.io/domJSExercises/views/).**
 
 ## Exercise 01:
 
 **Hamburger Menu**
 Show a button that when clicked shows a menu that appear from left to right.
 
-## Section 01:
-
-### Exercise 02:
+## Exercise 02:
 
 **Clock and Alarm**
-Show 4 button, the first one shows a clock, the second stops it. The third make an alarm rings, the last one make the sound stop.
+Show 4 buttons, the first one shows a clock, the second hides it. The third make an alarm rings, the last one make the alarm stop.
+
+## Exercise 03:
+
+**Keyboard Events**
+Make the browser detect when you press the key "a" and launch an alert, the "c" key and launch a confirm, the "p" key and launch a prompt.
+Also to show a rectangle with a circle inside, and move the circle without exceeding the border of the rectangle.
