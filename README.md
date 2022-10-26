@@ -25,3 +25,13 @@ Also to show a rectangle with a circle inside, and move the circle without excee
 
 **Countdown**
 Make a countdown to a determined date and show a message when that countdown finished.
+
+## Exercise 05:
+
+**Button to the top**
+Show a button when the scrollbar goes down a limit that moves your screen to the top.
+
+## Exercise 06:
+
+**Dark mode button**
+Show a button that changes the mode to dark mode.
