@@ -20,3 +20,8 @@ Show 4 buttons, the first one shows a clock, the second hides it. The third make
 **Keyboard Events**
 Make the browser detect when you press the key "a" and launch an alert, the "c" key and launch a confirm, the "p" key and launch a prompt.
 Also to show a rectangle with a circle inside, and move the circle without exceeding the border of the rectangle.
+
+## Exercise 04:
+
+**Countdown**
+Make a countdown to a determined date and show a message when that countdown finished.
