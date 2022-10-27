@@ -157,3 +157,30 @@ img {
   border-radius: 50%;
   background-color: var(--main-color);
 }
+
+.btn-dark-mode {
+  position: fixed;
+  z-index: 998;
+  bottom: 1vh;
+  left: 1vw;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--main-color);
+  color: var(--second-color);
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  transition: all 0.3 ease-out;
+}
+.btn-dark-mode:hover {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.dark-theme {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}

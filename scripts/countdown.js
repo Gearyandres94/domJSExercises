@@ -1,12 +1,11 @@
 const d = document;
 export function countdown(count, date, message) {
-    const now = Date.now(),
-        endDate = new Date(date).getTime()
+    const endDate = new Date(date).getTime();
 
     let days, hours, minutes, seconds, interval;
 
     interval = setInterval(() => {
-        const diffTime = Math.abs(endDate - now);
+        const diffTime = Math.abs(endDate - Date.now());
 
         days = Math.floor((diffTime / (1000 * 60 * 60 * 24)));
 
@@ -21,7 +20,7 @@ export function countdown(count, date, message) {
 
     }, 1000);
 
-    if (endDate <= now) {
+    if (Math.abs(endDate - Date.now()) <= 0) {
 
         clearInterval(interval);
 

@@ -3,6 +3,7 @@ import { digitalClock, alarm } from "./clock_and_alarm.js";
 import { moveBall, shortcuts } from "./keyboard.js";
 import { countdown } from "./countdown.js";
 import { buttonTop } from "./scroll_button.js";
+import { darkTheme } from "./dark_theme.js";
 
 
 const d = document;
@@ -13,6 +14,7 @@ d.addEventListener("DOMContentLoaded", e => {
     alarm("../assets/alarm.mp3", "#btnClock3", "#btnClock4");
     countdown(".count", "2025-01-01", "Countdown finished")
     buttonTop(".btnScroll");
+    darkTheme(".btn-dark-mode", "dark-theme");
 })
 
 d.addEventListener("keydown", e => {

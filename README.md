@@ -33,5 +33,10 @@ Show a button when the scrollbar goes down a limit that moves your screen to the
 
 ## Exercise 06:
 
-**Dark mode button**
-Show a button that changes the mode to dark mode.
+**Dark Theme Button**
+Show a button that changes the mode to a dark theme.
+
+## Exercise 07:
+
+**Local Storage API**
+The website should keep the dark mode when the user recharges the website.
