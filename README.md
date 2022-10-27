@@ -40,3 +40,13 @@ Show a button that changes the mode to a dark theme.
 
 **Local Storage API**
 The website should keep the dark mode when the user recharges the website.
+
+## Exercise 07:
+
+**Local Storage API**
+The website should keep the dark mode when the user recharges the website.
+
+## Exercise 08:
+
+**Responsive Design Javascript**
+The website should show a video and map and only show it when the screen is viewed from a desktop pc. If it's viewed from mobile should show only links.
