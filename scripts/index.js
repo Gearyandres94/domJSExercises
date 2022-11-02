@@ -4,6 +4,7 @@ import { moveBall, shortcuts } from "./keyboard.js";
 import { countdown } from "./countdown.js";
 import { buttonTop } from "./scroll_button.js";
 import { darkTheme } from "./dark_theme.js";
+import responsiveMedia from "./responsive_javascript.js";
 
 
 const d = document;
@@ -15,6 +16,8 @@ d.addEventListener("DOMContentLoaded", e => {
     countdown(".count", "2025-01-01", "Countdown finished")
     buttonTop(".btnScroll");
     darkTheme(".btn-dark-mode", "dark-theme");
+    responsiveMedia("1024", "video01", `<a href=https://www.youtube.com/embed/2SetvwBV-SU>Get Video Here</a>`, `<iframe width="600" height="450" src="https://www.youtube.com/embed/2SetvwBV-SU"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> `);
+    responsiveMedia("1024", "map01", `<a href=https://www.google.com/maps?ll=39.173281,-5.12019&z=8&t=m&hl=es-419&gl=AR&mapclient=embed>Get Map Here</a>`, `<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d791824.2177375586!2d-5.120190204152909!3d39.17328052081517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1666891805574!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`);
 })
 
 d.addEventListener("keydown", e => {
