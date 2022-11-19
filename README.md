@@ -80,6 +80,12 @@ Detect if the user has a camera and activate it.
 
 ## Exercise 13
 
-### Geolocalization:
+### Geolocation:
 
 Show Latitude, longitude and the precision in three paragraphs and a link to google maps that shows that area in the map.
+
+## Exercise 14
+
+### Search Filters:
+
+given a series of elements in the html, filter them with a search box
