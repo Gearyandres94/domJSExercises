@@ -88,4 +88,10 @@ Show Latitude, longitude and the precision in three paragraphs and a link to goo
 
 ### Search Filters:
 
-given a series of elements in the html, filter them with a search box
+Given a series of elements in the html, filter them with a search box.
+
+## Exercise 15
+
+### Digital Lottery:
+
+With a series of li elements, show an alert after clicking a button with the content of the winner.
