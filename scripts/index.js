@@ -13,7 +13,8 @@ import getGeolocation from "./geolocation.js";
 import filters from "./search_filters.js";
 import draw from "./digital_lottery.js";
 import slider from "./slider.js";
-import scroll_spy from "./scroll_spy.js";
+import scrollSpy from "./scroll_spy.js";
+
 
 
 const d = document;
@@ -34,7 +35,7 @@ d.addEventListener("DOMContentLoaded", e => {
     filters("search-input", "card");
     draw("#lottery-btn", ".player");
     slider();
-    scroll_spy();
+    scrollSpy();
 })
 
 d.addEventListener("keydown", e => {
