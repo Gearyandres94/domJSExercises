@@ -3,7 +3,6 @@ const d = document;
 export default function scrollSpy() {
     const $sections = d.querySelectorAll("section[data-scroll-spy]")
     const cb = (entries) => {
-        // console.log("entries", entries);
         entries.forEach((entry) => {
             const id = entry.target.getAttribute("id");
             if (entry.isIntersecting) {
@@ -14,8 +13,7 @@ export default function scrollSpy() {
         })
     }
     const observer = new IntersectionObserver(cb, {
-        //rootMargin: "-250px",
-        threshold: [0.5, 0.75],
+        threshold: [0.5, 0.75]
     });
     $sections.forEach(el => observer.observe(el));
 }

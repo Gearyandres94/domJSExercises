@@ -1,27 +1,37 @@
-const d = document,
-    w = window;
+const d = document
 
-export default function scrollSpy() {
-    if (w.innerWidth >= 1024) {
-        const section = d.querySelectorAll('section'),
-            navLinks = d.querySelectorAll('aside nav a');
+export default function slider() {
+    const $nextBtn = d.querySelector(".slider-btns .next"),
+        $prevBtn = d.querySelector(".slider-btns .prev"),
+        $slides = d.querySelectorAll(".slider-slide");
 
-        w.onscroll = () => {
-            section.forEach(sec => {
-                let top = window.scrollY,
-                    offset = sec.offsetTop,
-                    height = sec.offsetHeight,
-                    id = sec.getAttribute('id');
+    let i = 0;
 
-                if (top >= offset && top < offset + height) {
-                    navLinks.forEach(links => {
-                        links.classList.remove('active');
-                        d.querySelector('aside nav a[href*=' + id + ']').classList.add('active');
-                    });
-                };
+    d.addEventListener("click", e => {
+        if (e.target === $prevBtn) {
+            e.preventDefault();
+            $slides[i].classList.remove("active");
+            i--;
 
-            })
+            if (i < 0) {
+                i = $slides.length - 1;
+            }
+
+            $slides[i].classList.add("active");
 
         }
-    }
+        if (e.target === $nextBtn) {
+            e.preventDefault();
+            $slides[i].classList.remove("active");
+            i++;
+
+            if (i >= $slides.length - 1) {
+                i = 0;
+            }
+
+            $slides[i].classList.add("active");
+
+        }
+
+    })
 }
