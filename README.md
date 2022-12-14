@@ -113,6 +113,6 @@ Make a scrollspy using the Intersection Observer API
 
 ### Smart Video:
 
-Make a video that starts playing when you focus on it with The api Intersection observer and visibility Change
-=======
->>>>>>> parent of 4bf8b6f (DOM13: Ex16 and ex17 finished)
+# Make a video that starts playing when you focus on it with The api Intersection observer and visibility Change
+
+> > > > > > > parent of 4bf8b6f (DOM13: Ex16 and ex17 finished)
