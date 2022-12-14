@@ -13,7 +13,7 @@ import getGeolocation from "./geolocation.js";
 import filters from "./search_filters.js";
 import draw from "./digital_lottery.js";
 import slider from "./slider.js";
-import scrollSpy from "./scrollSpy.js";
+import scrollSpy from "./scroll_spy.js";
 
 
 const d = document;

@@ -106,4 +106,10 @@ Make a responsive slider with several images and two interactive buttons .
 
 ### ScrollSpy:
 
-Make a scrollspy
+Make a scrollspy using the Intersection Observer API
+
+## Exercise 18
+
+### Smart Video:
+
+Make a video that starts playing when you focus on it with The api Intersection observer and visibility Change
