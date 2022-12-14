@@ -95,6 +95,7 @@ Given a series of elements in the html, filter them with a search box.
 ### Digital Lottery:
 
 With a series of li elements, show an alert after clicking a button with the content of the winner.
+<<<<<<< HEAD
 
 ## Exercise 16
 
@@ -113,3 +114,5 @@ Make a scrollspy using the Intersection Observer API
 ### Smart Video:
 
 Make a video that starts playing when you focus on it with The api Intersection observer and visibility Change
+=======
+>>>>>>> parent of 4bf8b6f (DOM13: Ex16 and ex17 finished)
