@@ -12,6 +12,8 @@ import webCam from "./webcam_detection.js";
 import getGeolocation from "./geolocation.js";
 import filters from "./search_filters.js";
 import draw from "./digital_lottery.js";
+import slider from "./slider.js";
+import scrollSpy from "./scrollSpy.js";
 
 
 const d = document;
@@ -31,6 +33,8 @@ d.addEventListener("DOMContentLoaded", e => {
     getGeolocation("geolocationDiv");
     filters("search-input", "card");
     draw("#lottery-btn", ".player");
+    slider();
+    scrollSpy();
 })
 
 d.addEventListener("keydown", e => {

@@ -95,3 +95,15 @@ Given a series of elements in the html, filter them with a search box.
 ### Digital Lottery:
 
 With a series of li elements, show an alert after clicking a button with the content of the winner.
+
+## Exercise 16
+
+### Responsive Slider:
+
+Make a responsive slider with several images and two interactive buttons .
+
+## Exercise 17
+
+### ScrollSpy:
+
+Make a scrollspy
