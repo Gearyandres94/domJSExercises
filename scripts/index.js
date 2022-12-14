@@ -12,11 +12,8 @@ import webCam from "./webcam_detection.js";
 import getGeolocation from "./geolocation.js";
 import filters from "./search_filters.js";
 import draw from "./digital_lottery.js";
-<<<<<<< HEAD
 import slider from "./slider.js";
 import scrollSpy from "./scroll_spy.js";
-=======
->>>>>>> parent of 4bf8b6f (DOM13: Ex16 and ex17 finished)
 
 
 const d = document;
